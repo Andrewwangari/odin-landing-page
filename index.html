@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Hanken+Grotesk:wght@300;500;700;800&family=Outfit:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <title>BMW M5 COMPETITION</title>
 </head>
+
 <body>
-    
+    <!--Div container for backgound image-->
+
+    <div class="header-hero-container">
+
+        <!--header content-->
         <header>
             <div>
                 <img src="images/BMW M Series.png" alt="m series logo">
@@ -15,66 +23,76 @@
             <nav>
                 <ul>
                     <li><a href="#hero">About</a></li>
-                    <li><a href="#photo">photos</a></li>
-                    <li><a href="sign_up">sign up</a></li>
+                    <li><a href="#photos">photos</a></li>
+                    <li><a href="#sign_up">sign up</a></li>
                 </ul>
             </nav>
         </header>
-
-        <main>
-
-          <section id="hero" class="hero-section">
+<!-- hero section content-->
+         <section id="hero" class="hero-section">
              <div>
                 <h1>Unleash the Thrill: BMW M5 Competition - The Ultimate Driving Hero</h1>
                 <p>Introducing the automotive marvel that redefines power, precision, and pure exhilaration: the BMW M5 Competition. Born on the racetrack and engineered to conquer every road, this high-performance masterpiece is the embodiment of automotive perfection. With its striking design, muscular contours, and aerodynamic enhancements, the BMW M5 Competition commands attention wherever it roars.</p>
-                <button class="cts-button">
+                <button class="cta-button">
                     Sign Up
                 </button>
             </div>
           </section>
+    </div>
+
+    <!--photos Section content-->
+
 
           <section id="photos" class="photo-section">
 
             <h2>Capture the Essence: BMW M5 Competition in Pictures</h2>
 
             <div class="photo-gallery">
-                <div class="photo-item">
+                <figure class="photo-item">
                     <img src="images/zan-1BWBiUUT-AA-unsplash.jpg" alt="bm w m 5">
-                </div>
-                <div class="photo-item"> 
+                    <figcaption class="photo-caption"> A BMW M4 parked on the streets</figcaption>
+                </figure>
+                <figure class="photo-item"> 
                     <img src="images/4618255.jpg" alt="M 5 on the race track">
-                </div>
-                <div class="photo-item">
+                    <figcaption class="photo-caption">An M5 parked on a racetrack</figcaption>
+                </figure>
+                <figure class="photo-item">
                     <img src="images/3551874.jpg" alt="m 5 burning rubber">
-                </div>
-                <div class="photo-item">
+                    <figcaption class="photo-caption">M5 burning rubber on a racetrack</figcaption>
+                </figure>
+                <figure class="photo-item">
                     <img src="images/jakob-rosen-KFlNr7MehPg-unsplash.jpg" alt="m 5 parked">
-                </div>
-                <div class="photo-item">
+                    <figcaption class="photo-caption">An M3 parked on a snowy day</figcaption>
+                </figure>
+                <figure class="photo-item">
                     <img src="images/2948031.jpg" alt="m5 competition">
-                </div>
+                    <figcaption class="photo-caption">An M5 parked in a racetrack garage</figcaption>
+                </figure>
                
 
             </div>
           </section>
 
-          <section>
+          <!--Testimonial section-->
+
+          <section class="quote">
             <blockquote id="testimonial">
-                If you had asked people what they wanted in wheels. They would have said a faster car and answer is BMW //M Performance.
+                If you had asked people what they wanted in wheels. They would have said a faster car and the answer is BMW //M Performance.
 
                 -Shailesh Thakran
             </blockquote>
           </section>
-
+<!--call to action button-->
           <section id="sign_up" class="signup-section">
-            <div>
+            <div class="cta-container">
                 <h3>Ignite Your Passion: Test Drive the BMW M5 Competition Today!</h3>
                 <p>Ready to experience the unrivaled power and exhilaration of the BMW M5 Competition firsthand? Don't miss your chance to ignite your passion for driving. Schedule a test drive today and unleash the full potential of this extraordinary machine. Feel the adrenaline surge through your veins as you grip the wheel, navigate sharp turns with precision, and unleash the awe-inspiring performance of the M TwinPower Turbo V8 engine. Our expert team is eagerly waiting to guide you through an unforgettable driving experience that will leave you craving for more. Discover the epitome of automotive perfection and be prepared to be captivated. Take the wheel of the BMW M5 Competition and embark on a journey that will redefine your perception of driving. Your ultimate driving experience awaits. Seize the moment and schedule your test drive now.</p>
-                <button class="cta-button">Sign up</button>
+                <div class="flex-button"> <button class="cta-button">Sign up</button></div>
+                
             </div>
           </section>
 
-        </main>   
+    
 
         <footer>
             COPYRIGHT &copy;2023 THE ODIN PROJECT
